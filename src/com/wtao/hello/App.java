@@ -8,6 +8,10 @@ package com.wtao.hello;
 public class App {
 
 	public static void main(String[] args) {
-		System.out.println("hello github!");
+		sayHello("github");
+	}
+
+	private static void sayHello(String msg) {
+		System.out.println("hello " + msg);
 	}
 }
