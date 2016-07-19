@@ -9,6 +9,7 @@ public class App {
 
 	public static void main(String[] args) {
 		sayHello("github");
+		change();
 	}
 
 	private static void sayHello(String msg) {
@@ -18,4 +19,5 @@ public class App {
 	private static void change(){
 		System.out.println("随便改改。。。");
 	}
+	
 }
