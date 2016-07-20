@@ -2,6 +2,8 @@ package com.wtao.hello;
 
 import java.io.File;
 
+import com.sun.org.apache.xpath.internal.operations.String;
+
 /**
  * 
  * @author wtao
@@ -11,8 +13,17 @@ public class FileInfo {
 
 	private File file;
 	private Long length;
+	private String name;
 
 	public FileInfo() {
+	}
+	
+	public String getName() {
+		return name;
+	}
+
+	public void setFile(String name) {
+		this.name = name;
 	}
 
 	public File getFile() {
@@ -33,7 +44,7 @@ public class FileInfo {
 
 	@Override
 	public String toString() {
-		return "FileInfo [file=" + file + ", length=" + length + "]";
+		return "FileInfo [file=" + file + ", length=" + length +",name="+name+ "]";
 	}
 
 }

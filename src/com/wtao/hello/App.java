@@ -9,9 +9,15 @@ public class App {
 
 	public static void main(String[] args) {
 		sayHello("github");
+		sayHello("World");
+		addNumber(10, 20);
 	}
 
 	private static void sayHello(String msg) {
 		System.out.println("hello " + msg);
+	}
+	
+	private static  void addNumber(int a,int b) {
+		System.out.println(a+b);
 	}
 }
