@@ -15,6 +15,7 @@ public class App {
 
 	private static void sayHello(String msg) {
 		System.out.println("hello " + msg);
+		System.out.println("李金洪");
 	}
 	
 	private static  void addNumber(int a,int b) {
