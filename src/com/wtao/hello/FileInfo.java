@@ -26,6 +26,12 @@ public class FileInfo {
 		this.name = name;
 	}
 
+	public FileInfo(File file, Long length) {
+		super();
+		this.file = file;
+		this.length = length;
+	}
+
 	public File getFile() {
 		return file;
 	}
